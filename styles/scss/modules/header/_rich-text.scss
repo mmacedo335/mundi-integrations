@@ -1,0 +1,23 @@
+.container {
+
+    &--secure-env {
+        align-items: center;
+
+        .wrapper {
+
+            .paragraph {
+                margin: auto 20px;
+            }
+        }
+    }
+
+    &--text-operado-por {
+
+        .wrapper {
+
+            .paragraph {
+                text-align: center;
+            }
+        }
+    }
+}

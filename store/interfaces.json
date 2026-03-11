@@ -1,0 +1,11 @@
+{
+	"helmet-component": {
+		"component": "HelmetComponent"
+	},
+	"btn-trade-prod": {
+		"component": "BtnTradeProd"
+	},
+	"logo-redirect": {
+		"component": "LogoRedirect"
+	}
+}

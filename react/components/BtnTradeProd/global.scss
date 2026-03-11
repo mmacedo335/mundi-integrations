@@ -1,0 +1,12 @@
+.btnTradeProd {
+    background: #f4f4f4;
+    color: #161515;
+    border-radius: 5px;
+    padding: 12px 8px;
+    text-decoration: none;
+    margin-right: 10px;
+
+    &:hover {
+        border: 0.5px solid #161515;
+    }
+}

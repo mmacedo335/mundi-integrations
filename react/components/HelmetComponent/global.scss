@@ -1,0 +1,104 @@
+.t-heading-2,
+.vtex-button,
+.b--action-primary {
+    color: #cfc07f;
+    border-color: #cfc07f;
+    background: transparent;
+
+    &:hover {
+        color: #cfc07f;
+        border-color: #cfc07f;
+        background: transparent;
+    }
+}
+
+.vtex-my-account-1-x-profile {
+
+    >main {
+
+        @media (max-width: 820px) {
+            flex-flow: column;
+        }
+
+        >div {
+
+            @media (min-width: 768px) and (max-width: 1025px) {
+                width: 95%;
+            }
+        }
+    }
+}
+
+.vtex-account__page-body {
+
+    @media (min-width: 768px) and (max-width: 1025px) {
+        margin-left: 20px;
+    }
+
+}
+
+.newAddressButton,
+.vtex-my-cards-1-x-newCardButton,
+.vtex_my-authentication_box_footer,
+.vtex-profile-form-3-x-toggleBusinessButtonWrapper {
+
+    .vtex-button {
+        background: transparent;
+
+        &:hover {
+            color: #cfc07f;
+            border-color: #cfc07f;
+            background: transparent;
+        }
+    }
+}
+
+.vtex-my-account-1-x-userName,
+.vtex-my-account-1-x-dataEntryChildren {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.vtex-login-2-x-formFooter {
+    .vtex-login-2-x-sendButton {
+        .vtex-button {
+            height: 32px !important;
+            background-color: #cfc07f !important;
+            border: none !important;
+        }
+    }
+}
+
+// ESCONDENDO WISHLIST ATÉ PODER ESTILIZAR
+.vtex-my-account-1-x-menuLinks {
+    >div {
+
+        .vtex-account_menu-link[href="#/wishlist"] {
+            display: none;
+        }
+    }
+}
+
+.vtex-order-placed-2-x-cancelOrderButton,
+.vtex-my-orders-app-3-x-cancelBtn,
+.vtex-order-placed-2-x-updateOrderButton,
+body > div.render-container.render-route-store-account > div > div.vtex-store__template.bg-base > div > div:nth-child(2) > div > div > div > div > div > div:nth-child(1) > section > main > div > div.w-100.fl.w-60-ns.pv3-ns.pr0 > ul > li:nth-child(2) > a > span {
+    display: none !important;
+}
+
+.vtex-order-placed-2-x-orderPlacedWrapper {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.vtex-order-placed-2-x-productInfoColumn {
+    justify-content: start;
+}
+
+.vtex-my-account-1-x-addressBox {
+    @media (max-width: 767px) {
+        flex-flow: column;
+    }   
+}

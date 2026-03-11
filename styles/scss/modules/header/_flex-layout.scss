@@ -1,0 +1,10 @@
+.flex {
+    &Row {
+        &Content {
+            &--header-logo {
+                padding: 2rem 0;
+                border-bottom: 1px solid #CCCCCC;
+            }
+        }
+    }
+}
