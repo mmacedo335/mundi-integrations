@@ -12,7 +12,7 @@ const LogoRedirect = () => {
 				logo.addEventListener(
 					"click",
 					function () {
-						window.location.href = "https://www.brandili.com.br/";
+						window.location.href = "https://www.mundioficial.com.br/";
 					},
 					false
 				);
